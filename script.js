@@ -31,3 +31,8 @@ selectionButtons.forEach(selectionButton => {
 function makeSelection (selection) {
     console.log(selection)
 }
+
+function randomSelection () {
+    const randomInedx = Math.floor(Math.random() * SELECTIONS.length)
+    return SELECTIONS[randomInedx]
+}
