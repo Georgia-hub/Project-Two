@@ -29,7 +29,8 @@ selectionButtons.forEach(selectionButton => {
 
 
 function makeSelection (selection) {
-    console.log(selection)
+    const computerSelection = randomSelection()
+    console.log(computerSelection)
 }
 
 function randomSelection () {
