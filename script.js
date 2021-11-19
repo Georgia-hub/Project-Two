@@ -20,7 +20,8 @@ const SELECTIONS = [
 selectionButtons.forEach(selectionButton => {
     selectionButton.addEventListener("click", e => {
        const selectionName = selectionButton.dataset.selection
-       makeSelection(selectionName)
+       const selection = SELECTIONS.find(selection => selection.name === selectionName)
+       makeSelection(selection)
 
     })
 
