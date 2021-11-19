@@ -1,4 +1,5 @@
 const selectionButtons = document.querySelectorAll("[data-selection]")
+const finalColumn = document.qureyselectorALL("[data-final-column]")
 const SELECTIONS = [
     {
         name: "rock",
@@ -39,6 +40,9 @@ function makeSelection (selection) {
 }
 
 function addSelectionResult(selection, winner) {
+    const div = document.createElement("div")
+    div.innerText(selection.emoji)
+    finalColumn.after(div)
 
 }
 
