@@ -30,7 +30,13 @@ selectionButtons.forEach(selectionButton => {
 
 function makeSelection (selection) {
     const computerSelection = randomSelection()
+    const yourWinner = isWinner (selection, computerSelection)
+    const computerWinner = isWinner (computerSelection, selection)
     console.log(computerSelection)
+}
+
+function isWinner(selection, opponentSelection ) {
+    return SELECTIONS.beats === opponentSelection.name
 }
 
 function randomSelection () {
