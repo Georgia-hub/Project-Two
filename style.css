@@ -13,9 +13,19 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 4rem;
+    transition: 100ms;
 }
 
 .selection:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+.results {
+    margin: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
 }
