@@ -42,6 +42,8 @@ function makeSelection (selection) {
 function addSelectionResult(selection, winner) {
     const div = document.createElement("div")
     div.innerText(selection.emoji)
+    div.classList.add("result-selection")
+    if (winner) div.classList.add("winner")
     finalColumn.after(div)
 
 }
