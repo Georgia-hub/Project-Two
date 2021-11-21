@@ -1,5 +1,5 @@
 const selectionButtons = document.querySelectorAll("[data-selection]")
-const finalColumn = document.querySelectorALL("[data-final-column]")
+const finalColumn = document.querySelector("[data-final-column]")
 const SELECTIONS = [
     {
         name: "rock",
