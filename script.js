@@ -42,7 +42,7 @@ function makeSelection (selection) {
 }
 
  if (yourWinner) incrementScore(yourScoreSpan)
- if (computerWinner) incrementScore(compScoreSpan)
+ if (computerWinner) incrementScore(computerScoreSpan)
 
 function incrementScore(scoreSpan) {
     scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
