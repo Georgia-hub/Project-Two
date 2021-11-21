@@ -39,14 +39,15 @@ function makeSelection (selection) {
 
     addSelectionResult(computerSelection, computerWinner)
     addSelectionResult(selection, yourWinner)
+    
+    if (yourWinner) incrementScore(yourScoreSpan)
+    if (computerWinner) incrementScore(computerScoreSpan)
 }
 
- if (yourWinner) incrementScore(yourScoreSpan)
- if (computerWinner) incrementScore(computerScoreSpan)
-
-function incrementScore(scoreSpan) {
+function incrementScore (scoreSpan){
     scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
 }
+
 
 function addSelectionResult(selection, winner) {
     const div = document.createElement("div")
