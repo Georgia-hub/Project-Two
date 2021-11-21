@@ -10,7 +10,7 @@ const SELECTIONS = [
     },
     {
         name: "paper",
-        emoji: "📝",
+        emoji: "🧻",
         beats: "rock"
     },
     {
