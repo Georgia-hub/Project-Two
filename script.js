@@ -5,17 +5,17 @@ const playerScoreSpan = document.querySelector("[data-player-score]")
 const SELECTIONS = [
     {
         name: "rock",
-        emoji: "👊",
+        emoji: "🎸",
         beats: "scissors"
     },
     {
         name: "paper",
-        emoji: "✋",
+        emoji: "📝",
         beats: "rock"
     },
     {
         name: "scissors",
-        emoji: "✌️",
+        emoji: "✂️",
         beats: "paper"
     }
 ]
