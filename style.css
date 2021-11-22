@@ -1,12 +1,12 @@
 body {
-    background-color: #5EACA1;
+    background-color: #6aabd1;
 
 }
 
 h1{
     text-align: center;
     align-items: center;
-    border: 2px groove rgb(27, 131, 201);
+    border: 2px groove rgb(10, 75, 119);
 }
 
 .selections {
