@@ -21,7 +21,7 @@ const selections = [
         beats: "paper"
     }
 ]
-
+/** event listener to be added to each click  */
 selectionButtons.forEach(selectionButton => {
     selectionButton.addEventListener("click", e => {
        const selectionName = selectionButton.dataset.selection
@@ -30,7 +30,7 @@ selectionButtons.forEach(selectionButton => {
     })
 
 })
-
+/** fuction for the out come of the winner for the player and computer  */
 function makeSelection (selection) {
     const computerSelection = randomSelection()
     const playerWinner = isWinner (selection, computerSelection)
@@ -43,12 +43,11 @@ function makeSelection (selection) {
     if (playerWinner) incrementScore(playerScoreSpan)
     if (computerWinner) incrementScore(computerScoreSpan)
 }
-
+/** fuction to incremnet the score  */
 function incrementScore (scoreSpan){
     scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
 }
-
-
+/** fuction to add for the winner */
 function addSelectionResult(selection, winner) {
     const div = document.createElement("div")
     div.innerText = selection.emoji
