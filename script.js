@@ -1,4 +1,4 @@
-/** const declared Elements for the game functions  */
+/** Main declared Elements for the game  */
 const selectionButtons = document.querySelectorAll("[data-selection]")
 const finalColumn = document.querySelector("[data-final-column]")
 const computerScoreSpan = document.querySelector("[data-computer-score]")
