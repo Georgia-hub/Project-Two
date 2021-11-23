@@ -8,12 +8,12 @@ h1{
     align-items: center;
     border: 2px groove rgb(10, 75, 119);
 }
-
+/*sections centered*/
 .selections {
     display: flex;
     justify-content: center;
 }
-
+/*sections styling*/
 .selection {
     background: none;
     border: none;
