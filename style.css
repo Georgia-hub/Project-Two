@@ -42,7 +42,7 @@ h1{
     font-size: 1rem;
     color: #333;
 }
-
+/*Results score opacity*/
 .result-selection {
     opacity: .5;
 }
