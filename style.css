@@ -1,6 +1,6 @@
+/*Main background colour*/
 body {
     background-color: #6aabd1;
-
 }
 
 h1{
@@ -12,7 +12,6 @@ h1{
 .selections {
     display: flex;
     justify-content: center;
-    
 }
 
 .selection {
@@ -41,7 +40,6 @@ h1{
     margin-left: .1rem;
     font-size: 1rem;
     color: #333;
-
 }
 
 .result-selection {
@@ -51,5 +49,12 @@ h1{
 .result-selection.winner {
     opacity: 1;
     font-size: 2rem;
+}
 
+.reset-btn {
+    text-align: center;
+}
+
+#reset {
+    background-color: aquamarine;
 }
