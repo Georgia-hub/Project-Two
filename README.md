@@ -18,6 +18,12 @@ The target user is to beat the computer by choosing the winner hand.
 * As a user I want to be able to use the controls at ease.
 * As a user I want to be able to visually see the score.
 
+### Design Goals
+* A classic version of the game.
+* Customisation possiblities.
+* user friendly controls.
+* A returned user.
+
 
 
 
