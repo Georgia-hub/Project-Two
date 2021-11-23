@@ -55,7 +55,7 @@ h1{
 .reset-btn {
     text-align: center;
 }
-
+/*Results id background colour*/
 #reset {
     background-color: aquamarine;
 }
