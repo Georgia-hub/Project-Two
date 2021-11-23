@@ -24,6 +24,8 @@ The target user is to beat the computer by choosing the winner hand.
 * user friendly controls.
 * A returned user.
 
-
+### Design Choices
+#### Color Scheme
+I orginally was going to choose a green back ground to go with the mustard colour schemes for my emojis buttond and make this colour. After putting this colour together on the game the emojis poped out and looked better with a blue background. This is why i choose the yellow for the interactive buttons so they are the center standing piece on the game.
 
 
