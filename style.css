@@ -22,7 +22,7 @@ h1{
     font-size: 4rem;
     transition: 100ms;
 }
-
+/*sections hover style*/
 .selection:hover {
     transform: scale(1.2);
 }
