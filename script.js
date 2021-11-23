@@ -2,7 +2,8 @@ const selectionButtons = document.querySelectorAll("[data-selection]")
 const finalColumn = document.querySelector("[data-final-column]")
 const computerScoreSpan = document.querySelector("[data-computer-score]")
 const playerScoreSpan = document.querySelector("[data-player-score]")
-const SELECTIONS = [
+const resetButton = document.getElementById("reset")
+const selections = [
     {
         name: "rock",
         emoji: "👊",
@@ -23,7 +24,7 @@ const SELECTIONS = [
 selectionButtons.forEach(selectionButton => {
     selectionButton.addEventListener("click", e => {
        const selectionName = selectionButton.dataset.selection
-       const selection = SELECTIONS.find(selection => selection.name === selectionName)
+       const selection = selections.find(selection => selection.name === selectionName)
        makeSelection(selection)
 
     })
@@ -59,10 +60,20 @@ function addSelectionResult(selection, winner) {
 }
 
 function isWinner(selection, opponentSelection ) {
-    return SELECTIONS.beats === opponentSelection.name
+    return selection.beats === opponentSelection.name
 }
 
 function randomSelection () {
-    const randomInedx = Math.floor(Math.random() * SELECTIONS.length)
-    return SELECTIONS[randomInedx]
+    const randomInedx = Math.floor(Math.random() * selections.length)
+    return selections[randomInedx]
 }
+
+function resetGame () {
+    location.reload()
+
+}
+
+resetButton.addEventListener("click", ()=> {
+
+    location.reload()
+})
