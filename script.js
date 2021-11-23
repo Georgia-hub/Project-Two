@@ -55,16 +55,16 @@ function addSelectionResult(selection, winner) {
     if (winner) div.classList.add("winner")
     finalColumn.after(div)
 }
-
+/** fuction is winner section */
 function isWinner(selection, opponentSelection ) {
     return selection.beats === opponentSelection.name
 }
-
+/** fuction for the computer to randomly seclect  */
 function randomSelection () {
     const randomInedx = Math.floor(Math.random() * selections.length)
     return selections[randomInedx]
 }
-
+/** fuction reset the game  */
 function resetGame () {
     location.reload()
 }
