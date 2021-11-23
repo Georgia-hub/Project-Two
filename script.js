@@ -1,3 +1,4 @@
+/** const declared Elements for the game functions  */
 const selectionButtons = document.querySelectorAll("[data-selection]")
 const finalColumn = document.querySelector("[data-final-column]")
 const computerScoreSpan = document.querySelector("[data-computer-score]")
@@ -26,11 +27,9 @@ selectionButtons.forEach(selectionButton => {
        const selectionName = selectionButton.dataset.selection
        const selection = selections.find(selection => selection.name === selectionName)
        makeSelection(selection)
-
     })
 
 })
-
 
 function makeSelection (selection) {
     const computerSelection = randomSelection()
@@ -56,7 +55,6 @@ function addSelectionResult(selection, winner) {
     div.classList.add("result-selection")
     if (winner) div.classList.add("winner")
     finalColumn.after(div)
-
 }
 
 function isWinner(selection, opponentSelection ) {
@@ -70,10 +68,8 @@ function randomSelection () {
 
 function resetGame () {
     location.reload()
-
 }
 
 resetButton.addEventListener("click", ()=> {
-
     location.reload()
 })
