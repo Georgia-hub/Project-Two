@@ -46,12 +46,12 @@ h1{
 .result-selection {
     opacity: .5;
 }
-
+/*Results score winner*/
 .result-selection.winner {
     opacity: 1;
     font-size: 2rem;
 }
-
+/*Results reset button*/
 .reset-btn {
     text-align: center;
 }
