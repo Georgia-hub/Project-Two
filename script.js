@@ -68,7 +68,7 @@ function randomSelection () {
 function resetGame () {
     location.reload()
 }
-
+/** fuction to reset the button and avent listener  */
 resetButton.addEventListener("click", ()=> {
     location.reload()
 })
