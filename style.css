@@ -26,7 +26,7 @@ h1{
 .selection:hover {
     transform: scale(1.2);
 }
-
+/*Results sections style*/
 .results {
     margin: 1rem;
     display: grid;
@@ -36,6 +36,7 @@ h1{
     align-items: center;
     font-size: 2rem;
 }
+/*Results score sections style*/
 .result-score {
     margin-left: .1rem;
     font-size: 1rem;
