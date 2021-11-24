@@ -62,6 +62,8 @@ Before running Lighthouse I made sure that i checked my code for errors.
 All HTML files were run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard. 
 For my javasscript, this was run through (https://jshint.com/).
 
+![codetest.png](docs/images/codetest.png)
+
 ## **Bugs**
 During the development of rock paper scissors i had a few bugs to overcome which were mostly mistakes.
 
