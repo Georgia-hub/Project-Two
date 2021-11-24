@@ -41,6 +41,11 @@ All projects are never finshed and are constantly improving your development. Fo
 * More content.
 * choose of game modes
 
+## **Testing**
+i have tested each funstionn and responsive elements as i wrote them out. I have used a number functions that maniplulate elemnets as i haev instructed them to.
+
+### Responsiveness
+My website is completely responsive, fit for purpose and also fits to scale depeding on the device played on for maximum game play. I orginally had an issue with the button not tallying the score but this was down to an error in the code but this was rectified. 
 
 
 
