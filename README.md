@@ -6,7 +6,7 @@
 The plan was to create a simple classic version of Rock Paper Scissors game. The goal of this project was to create a fun yet simple game easy to interactive with.
 
 ### Game controls 
-The game consits of 3 random options in which the player will either win or loose depeding on what the player chooses and the computer randomly selects. 
+The game consits of 3 random options in which the player will either win or loose depeding on what the player chooses and the computer randomly selects.
 
 ### Game rules
 The player can click either the rock paper or scissors as many times as they want to beat the computers random selection and win the game. If they choose an option that looses then the computer will win. Rock wins against scissors, scissors wins over paper and paper beats rock.
@@ -80,7 +80,6 @@ I deployed my website on GitHub pages via the following:
 1. Click on **Main** and then click on **Save**.
 1. Once this message **Your site is ready to be published** appears this will confirm that this has been published.
 1. After a little amount of time the site will be published and this message will change to **Your site is published**.
-
 
 ## **Credits**
 
