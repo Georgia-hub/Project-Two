@@ -31,7 +31,8 @@ I orginally was going to choose a green back ground to go with the mustard colou
 ## **Features**
 
 - Score tally
-- button otptions
+- 3x buttons used.
+- random outcome each time
 
 ## **Features to be added**
 All projects are never finshed and are constantly improving your development. For my next project i would like to add the following features:
@@ -46,6 +47,15 @@ i have tested each funstionn and responsive elements as i wrote them out. I have
 
 ### Responsiveness
 My website is completely responsive, fit for purpose and also fits to scale depeding on the device played on for maximum game play. I orginally had an issue with the button not tallying the score but this was down to an error in the code but this was rectified. 
+
+### LightHouse
+Before running Lighthouse I made sure that i checked my code for errors.
+All HTML files were run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard. 
+For my javasscript, this was run through (https://jshint.com/).
+
+## **Bugs**
+During the development of rock paper scissors i had a few bugs to overcome. The first i couldnt get the increment function to work, this was due to having a speeling mistake in the function sections itself.
+
 
 
 
