@@ -87,9 +87,9 @@ I deployed my website on GitHub pages via the following:
 1. After a little amount of time the site will be published and this message will change to **Your site is published**.
 
 ## **Credits**
-
+This website was designed is by Georgia Kershsw.
 ### Content
-
+This contains images and the process of the development of the Rock Paper Scissors game.
 
 
 
