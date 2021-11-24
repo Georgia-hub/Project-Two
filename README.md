@@ -1,6 +1,5 @@
 # **Rock Paper Scissors**
 
-![Am I Responsive?](project-two/README.md) 
 ## **Planning Stage**
 ### Project Goals
 The plan was to create a simple classic version of Rock Paper Scissors game. The goal of this project was to create a fun yet simple game easy to interactive with.
