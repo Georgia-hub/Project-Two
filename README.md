@@ -7,7 +7,7 @@ The plan was to create a simple classic version of Rock Paper Scissors game. The
 
 ### Game controls 
 The game consits of 3 random options in which the player will either win or loose depeding on what the player chooses and the computer randomly selects.
-
+![emojis.jpg](docs/images/filename.jpg)
 ### Game rules
 The player can click either the rock paper or scissors as many times as they want to beat the computers random selection and win the game. If they choose an option that looses then the computer will win. Rock wins against scissors, scissors wins over paper and paper beats rock.
 
