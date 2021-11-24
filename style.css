@@ -51,11 +51,3 @@ h1{
     opacity: 1;
     font-size: 2rem;
 }
-/*Results reset button*/
-.reset-btn {
-    text-align: center;
-}
-/*Results id background colour*/
-#reset {
-    background-color: aquamarine;
-}

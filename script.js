@@ -64,11 +64,3 @@ function randomSelection () {
     const randomInedx = Math.floor(Math.random() * selections.length)
     return selections[randomInedx]
 }
-/** fuction reset the game  */
-function resetGame () {
-    location.reload()
-}
-/** fuction to reset the button and avent listener  */
-resetButton.addEventListener("click", ()=> {
-    location.reload()
-})
