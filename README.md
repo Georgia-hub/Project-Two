@@ -4,6 +4,7 @@
 ### Project Goals
 The plan was to create a simple classic version of Rock Paper Scissors game. The goal of this project was to create a fun yet simple game easy to interactive with.
 ![rockpaperscissors.png](docs/images/rockpaperscissors.png)
+
 ### Game controls 
 The game consits of 3 random options in which the player will either win or loose depeding on what the player chooses and the computer randomly selects.
 ![emojis.jpg](docs/images/emojis.jpg)
