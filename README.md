@@ -1,9 +1,15 @@
 # **Rock Paper Scissors**
 
-![Am I Responsive?](docs/read-me/am-i-responsive.png) 
+![Am I Responsive?](project-two/README.md) 
 ## **Planning Stage**
 ### Project Goals
 The plan was to create a simple classic version of Rock Paper Scissors game. The goal of this project was to create a fun yet simple game easy to interactive with.
+
+### Game controls 
+The game consits of 3 random options in which the player will either win or loose depeding on what the player chooses and the computer randomly selects. 
+
+### Game rules
+The player can click either the rock paper or scissors as many times as they want to beat the computers random selection and win the game. If they choose an option that looses then the computer will win. Rock wins against scissors, scissors wins over paper and paper beats rock.
 
 ### User Goals
 The target user is to beat the computer by choosing the winner hand.
@@ -54,7 +60,33 @@ All HTML files were run through (https://validator.w3.org/) and my CSS file was 
 For my javasscript, this was run through (https://jshint.com/).
 
 ## **Bugs**
-During the development of rock paper scissors i had a few bugs to overcome. The first i couldnt get the increment function to work, this was due to having a speeling mistake in the function sections itself.
+During the development of rock paper scissors i had a few bugs to overcome which were mostly mistakes.
+
+### Fixed Bugs
+Firstly, i couldnt get the increment function to work, this was due to having a speeling mistake in the function sections itself. I also had a bug when i was trying to link CSS, this was due to needing the refersh the the live browser of the game.
+
+## **Technology Used**
+
+### Languages
+* HTML
+* CSS
+* JavaScript
+
+## **Deployment**
+I deployed my website on GitHub pages via the following:
+1. Go to repository in projects and select the **settings** tab.
+1. Near the bottom on the left side click on **pages** link.
+1. Click on **Source** and on the button (None) to gt the dropdwon menu.
+1. Click on **Main** and then click on **Save**.
+1. Once this message **Your site is ready to be published** appears this will confirm that this has been published.
+1. After a little amount of time the site will be published and this message will change to **Your site is published**.
+
+
+## **Credits**
+
+### Content
+
+
 
 
 
