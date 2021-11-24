@@ -28,7 +28,6 @@ selectionButtons.forEach(selectionButton => {
        const selection = selections.find(selection => selection.name === selectionName)
        makeSelection(selection)
     })
-
 })
 /** fuction for the out come of the winner for the player and computer  */
 function makeSelection (selection) {

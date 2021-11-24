@@ -28,4 +28,19 @@ The target user is to beat the computer by choosing the winner hand.
 #### Color Scheme
 I orginally was going to choose a green back ground to go with the mustard colour schemes for my emojis buttond and make this colour. After putting this colour together on the game the emojis poped out and looked better with a blue background. This is why i choose the yellow for the interactive buttons so they are the center standing piece on the game.
 
+## **Features**
+
+- Score tally
+- button otptions
+
+## **Features to be added**
+All projects are never finshed and are constantly improving your development. For my next project i would like to add the following features:
+* Improved graphics.
+* add a popup box for looser and winner.
+* Set the score to a number of points to level up in to another round.
+* More content.
+* choose of game modes
+
+
+
 
